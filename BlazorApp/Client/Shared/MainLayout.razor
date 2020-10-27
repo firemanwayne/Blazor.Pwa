@@ -1,18 +1,45 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+@code{
+    string MarginLeft { get; set; } = "margin-left: 300px;";
 
-    <div class="main">
-        <div class="top-row px-4 auth">
-            <LoginDisplay />
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-        </div>
+    IList<BarItem> NavBarItems = new List<BarItem>()
+{
+         new BarItem { IsLocked = false, Name = "Import", LogoName = "dashboard", HrefLink = "/Import" },
+         new BarItem { IsLocked = false, Name = "Export", LogoName = "language", HrefLink = "/Export" },
+         new BarItem { IsLocked = false, Name = "IO", NavItems = IOListItems, LogoName = "description", HrefLink = "javascript:void(0)" },
+    };
+    private static readonly IList<BarListItem> IOListItems = new List<BarListItem>()
+{
+            new BarListItem("Import", "/Import"),
+            new BarListItem("Export", "/Export")
+    };
 
-        <div class="content px-4">
-            @Body
-        </div>
-    </div>
-</div>
+    void HandleSideNavToggled(bool IsOpen)
+    {
+        if (IsOpen)
+            MarginLeft = "margin-left: 300px;";
+        else
+            MarginLeft = "margin-left: 85px;";
+    }
+}
+
+<AuthorizeView>
+    <NotAuthorized>
+        <RedirectToLogin/>
+    </NotAuthorized>
+
+    <Authorized>
+
+        <HeaderBar />
+
+        <SideNavBar BarItems="NavBarItems" OnSideNavToggled="HandleSideNavToggled" />
+
+        <main id="main" class="row" style="padding-bottom: 60px; padding-left: 30px; @MarginLeft">
+            <div class="content p-4">
+                @Body
+            </div>
+        </main>
+
+    </Authorized>
+</AuthorizeView>

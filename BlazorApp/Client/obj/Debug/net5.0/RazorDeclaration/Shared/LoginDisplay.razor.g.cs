@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorApp.Client.Shared
+namespace BlazorApp.Pwa.Client.Shared
 {
     #line hidden
     using System;
@@ -27,35 +27,35 @@ using System.Net.Http.Json;
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+#line 3 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+#line 4 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+#line 5 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+#line 6 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+#line 7 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
@@ -69,15 +69,15 @@ using Microsoft.JSInterop;
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
-using BlazorApp.Client;
+#line 11 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+using BlazorApp.Pwa.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
-using BlazorApp.Client.Shared;
+#line 12 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+using BlazorApp.Pwa.Client.Shared;
 
 #line default
 #line hidden

@@ -1,6 +1,6 @@
 {
-  "name": "BlazorApp",
-  "short_name": "BlazorApp",
+  "name": "BlazorApp.Pwa",
+  "short_name": "BlazorApp.Pwa",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",

@@ -1,0 +1,92 @@
+﻿@code {
+
+    [Parameter] public IEnumerable<BarItem> BarItems { get; set; } = new List<BarItem>();
+
+    [Parameter] public EventCallback<bool> OnSideNavToggled { get; set; }
+
+    bool isOpen;
+
+    string Width { get; set; } = "width:300px;";
+
+    string LockIcon { get => IsLocked ? "lock" : "lock_open"; }
+
+    bool IsLocked { get; set; }
+
+    bool IsOpen
+    {
+        get => isOpen;
+        set
+        {
+            isOpen = value;
+
+            if (OnSideNavToggled.HasDelegate)
+                OnSideNavToggled.InvokeAsync(value);
+        }
+    }
+
+    void ToggleLock()
+    {
+        if (IsLocked)
+            UnlockSideNav();
+        else
+            LockSideNav();
+    }
+
+    void LockSideNav()
+    {
+        IsLocked = true;
+        IsOpen = true;
+        Width = "width: 300px;";
+    }
+    void UnlockSideNav()
+    {
+        IsLocked = false;
+
+        IsOpen = false;
+        Width = "width: 85px;";
+    }
+
+    void OnMouseOut()
+    {
+        if (!IsLocked)
+        {
+            IsOpen = false;
+            Width = "width: 85px;";
+        }
+    }
+
+    void OnMouseOver()
+    {
+        if (!IsLocked)
+        {
+            IsOpen = true;
+            Width = "width: 300px;";
+        }
+    }
+}
+
+<nav id="mySidebar" class="sidebar" style="@Width">
+    <div>
+        <span class="sidebar-header">
+            <a @onclick="ToggleLock" class="sidebar-pin" style="text-align: right;">
+                <i class="material-icons" style="color: #aec4cd">@LockIcon</i>
+            </a>
+        </span>
+
+        <div @onmouseover="OnMouseOver" @onmouseout="OnMouseOut">
+            <ul class="list-unstyled components">
+
+                @foreach (var item in BarItems)
+                {
+                    <SideBarItem Name="@item.Name"
+                                 LogoName="@item.LogoName"
+                                 HrefLink="@item.HrefLink"
+                                 IsLocked="item.IsLocked"
+                                 NavListItems="item.NavItems"
+                                 ModuleColor="@item.ModuleColor" />
+                }
+
+            </ul>
+        </div>
+    </div>
+</nav>

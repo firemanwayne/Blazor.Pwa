@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace BlazorApp.Server.Controllers
+namespace BlazorApp.Pwa.Server.Controllers
 {
     public class OidcConfigurationController : Controller
     {

@@ -1,0 +1,88 @@
+﻿@code {
+    [Parameter] public string Name { get; set; } = "Placeholder";
+
+    [Parameter] public string ModuleColor { get; set; } = "#217AA2";
+
+    [Parameter] public string LogoName { get; set; } = "error";
+
+    [Parameter] public bool IsLocked { get; set; } = false;
+
+    [Parameter] public string HrefLink { get; set; }
+
+    [Parameter] public IList<BarListItem> NavListItems { get; set; } = new List<BarListItem>();
+
+    bool isUp;
+    bool DisplayList { get; set; }
+    string ParentHref { get; set; }
+
+    const string ArrowUp = "keyboard_arrow_up";
+    const string ArrowDown = "keyboard_arrow_down";
+
+    bool IsUp
+    {
+        get => isUp;
+        set
+        {
+            isUp = value;
+            CurrentArrowDirection = value ? ArrowUp : ArrowDown;
+        }
+    }
+    string CurrentArrowDirection { get; set; }
+
+    protected override Task OnParametersSetAsync()
+    {
+        try
+        {
+            if (NavListItems.Count == 0)
+                ParentHref = HrefLink;
+
+            DisplayList = NavListItems.Count > 0;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+
+        return Task.CompletedTask;
+    }
+
+    void ArrowClicked()
+    {
+        if (IsUp)
+            IsUp = false;
+        else
+            IsUp = true;
+    }
+}
+
+<li>
+    @if (NavListItems.Count > 0)
+    {
+        <a href="@ParentHref" style="color: #aec4cd" aria-expanded="false" @onclick="ArrowClicked">
+            <i class="material-icons">@LogoName</i>
+            @Name
+            <i class="material-icons menu-icon menu-arrow">
+                @CurrentArrowDirection
+            </i>
+        </a>
+
+        @if (DisplayList && IsUp)
+        {
+            <ul class="sidebaritem list-unstyled">
+                @foreach (var navItem in NavListItems)
+                {
+                    <li>
+                        <a href="@navItem.Href" style="color: #aec4cd;">@navItem.Name</a>
+                    </li>
+                }
+            </ul>
+        }
+    }
+    else
+    {
+        <a href="@ParentHref">
+            <i class="material-icons">@LogoName</i>
+            @Name
+        </a>        
+    }
+</li>

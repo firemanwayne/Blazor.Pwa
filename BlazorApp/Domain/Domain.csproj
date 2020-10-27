@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="System.Linq" Version="4.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\ExportToExcel\ExportToExcel.csproj" />
+	  <ProjectReference Include="..\Shared\BlazorApp.Pwa.Shared.csproj" />
+	</ItemGroup>	
+
+</Project>

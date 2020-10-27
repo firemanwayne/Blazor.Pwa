@@ -352,16 +352,6 @@
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
         }
-      },
-      "BlazorApp.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/BlazorApp.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BlazorApp.Shared.dll": {}
-        }
       }
     },
     "net5.0/browser-wasm": {
@@ -714,16 +704,6 @@
         },
         "runtime": {
           "lib/net5.0/System.Net.Http.Json.dll": {}
-        }
-      },
-      "BlazorApp.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/BlazorApp.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BlazorApp.Shared.dll": {}
         }
       }
     }
@@ -1310,16 +1290,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "BlazorApp.Shared/1.0.0": {
-      "type": "project",
-      "path": "../Shared/BlazorApp.Shared.csproj",
-      "msbuildProject": "../Shared/BlazorApp.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "BlazorApp.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.0-rc.2.20475.17",
       "Microsoft.AspNetCore.Components.WebAssembly.Authentication >= 5.0.0-rc.2.20475.17",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.0-rc.2.20475.17",
@@ -1333,9 +1307,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Client\\BlazorApp.Client.csproj",
-      "projectName": "BlazorApp.Client",
-      "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Client\\BlazorApp.Client.csproj",
+      "projectUniqueName": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Client\\BlazorApp.Pwa.Client.csproj",
+      "projectName": "BlazorApp.Pwa.Client",
+      "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Client\\BlazorApp.Pwa.Client.csproj",
       "packagesPath": "C:\\Users\\Wayne\\.nuget\\packages\\",
       "outputPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Client\\obj\\",
       "projectStyle": "PackageReference",
@@ -1353,11 +1327,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
-              "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Shared.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

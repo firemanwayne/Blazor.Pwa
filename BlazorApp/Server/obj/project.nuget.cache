@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bwuQg0aBpHKH3P2OEwE8G8BmKfwC6M1/t9LifstSgQGFbU+Elm1EX7nwDeb/JnHoFRbnVpHAS5y1KQWZ5+xE+g==",
+  "dgSpecHash": "psPD8oF8KrzhEMeGeL+iB0kb7oLxiXE5kqHpHYVE8quLvruFaNfYh+S05bSg7CryFZuXoYV/GKtjC97AF6+kWg==",
   "success": true,
-  "projectFilePath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Server\\BlazorApp.Server.csproj",
+  "projectFilePath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Server\\BlazorApp.Pwa.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wayne\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -73,7 +73,10 @@
     "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\npoi\\2.5.1\\npoi.2.5.1.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\portable.bouncycastle\\1.8.6\\portable.bouncycastle.1.8.6.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\sharpziplib\\1.2.0\\sharpziplib.1.2.0.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\system.collections.immutable\\5.0.0-rc.2.20475.5\\system.collections.immutable.5.0.0-rc.2.20475.5.nupkg.sha512",

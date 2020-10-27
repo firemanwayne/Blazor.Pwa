@@ -972,6 +972,36 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NPOI/2.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.6",
+          "SharpZipLib": "1.2.0",
+          "System.Configuration.ConfigurationManager": "4.5.0",
+          "System.Drawing.Common": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NPOI.OOXML.dll": {},
+          "lib/netstandard2.0/NPOI.OpenXml4Net.dll": {},
+          "lib/netstandard2.0/NPOI.OpenXmlFormats.dll": {},
+          "lib/netstandard2.0/NPOI.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NPOI.OOXML.dll": {},
+          "lib/netstandard2.0/NPOI.OpenXml4Net.dll": {},
+          "lib/netstandard2.0/NPOI.OpenXmlFormats.dll": {},
+          "lib/netstandard2.0/NPOI.dll": {}
+        }
+      },
+      "Portable.BouncyCastle/1.8.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -985,6 +1015,15 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "SharpZipLib/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -993,7 +1032,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/System.Collections.dll": {}
         }
       },
       "System.Collections.Concurrent/4.3.0": {
@@ -1129,7 +1168,7 @@
           "System.Security.Permissions": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {}
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
@@ -1184,7 +1223,7 @@
           "Microsoft.Win32.SystemEvents": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/_._": {}
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Drawing.Common.dll": {}
@@ -1308,7 +1347,7 @@
           "System.Runtime.Extensions": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.6/_._": {}
+          "ref/netstandard1.6/System.Linq.dll": {}
         },
         "runtime": {
           "lib/netstandard1.6/System.Linq.dll": {}
@@ -1520,7 +1559,7 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
-          "ref/netstandard1.5/_._": {}
+          "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
       "System.Runtime.Caching/4.7.0": {
@@ -1627,7 +1666,7 @@
           "System.Security.Principal.Windows": "4.7.0"
         },
         "compile": {
-          "ref/netstandard2.0/_._": {}
+          "ref/netstandard2.0/System.Security.AccessControl.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Security.AccessControl.dll": {}
@@ -1694,7 +1733,7 @@
           "System.Windows.Extensions": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/_._": {}
+          "ref/netcoreapp3.0/System.Security.Permissions.dll": {}
         },
         "runtime": {
           "lib/netcoreapp3.0/System.Security.Permissions.dll": {}
@@ -1703,7 +1742,7 @@
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp3.0/_._": {}
+          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
@@ -1851,7 +1890,7 @@
           "System.Drawing.Common": "4.7.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/_._": {}
+          "ref/netcoreapp3.0/System.Windows.Extensions.dll": {}
         },
         "runtime": {
           "lib/netcoreapp3.0/System.Windows.Extensions.dll": {}
@@ -1961,32 +2000,93 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "BlazorApp.Client/1.0.0": {
+      "BlazorApp.Pwa.Client/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "BlazorApp.Shared": "1.0.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "5.0.0-rc.2.20475.17",
           "Microsoft.AspNetCore.Components.WebAssembly.Authentication": "5.0.0-rc.2.20475.17",
           "Microsoft.Extensions.Http": "5.0.0-rc.2.20475.5",
           "System.Net.Http.Json": "5.0.0-rc.2.20475.5"
         },
         "compile": {
-          "bin/placeholder/BlazorApp.Client.dll": {}
+          "bin/placeholder/BlazorApp.Pwa.Client.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BlazorApp.Client.dll": {}
+          "bin/placeholder/BlazorApp.Pwa.Client.dll": {}
         }
       },
-      "BlazorApp.Shared/1.0.0": {
+      "BlazorApp.Pwa.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "5.0.0-rc.2.20475.17",
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.0-rc.2.20475.17",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.0-rc.2.20475.17",
+          "Microsoft.AspNetCore.Identity.UI": "5.0.0-rc.2.20475.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0-rc.2.20475.6",
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.0-rc.2.20475.6"
+        },
         "compile": {
-          "bin/placeholder/BlazorApp.Shared.dll": {}
+          "bin/placeholder/BlazorApp.Pwa.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BlazorApp.Shared.dll": {}
+          "bin/placeholder/BlazorApp.Pwa.Shared.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BlazorApp.Pwa.Shared": "1.0.0",
+          "ExportToExcel": "1.0.0",
+          "System.Linq": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "ExportToExcel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly": "5.0.0-rc.2.20475.17",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0-rc.2.20475.5",
+          "NPOI": "2.5.1"
+        },
+        "compile": {
+          "bin/placeholder/ExportToExcel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExportToExcel.dll": {}
         }
+      },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BlazorApp.Pwa.Shared": "1.0.0",
+          "Domain": "1.0.0",
+          "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": "3.1.9"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -3433,6 +3533,51 @@
         "newtonsoft.json.nuspec"
       ]
     },
+    "NPOI/2.5.1": {
+      "sha512": "2RkrIi+h6hDcrdR8EIxMpBb7vSz5Lgsr1HKgrA7Q+9/zQ17ky5b+3eHuJeuautFhRSrUTRxUfOpF5l9Vooy8/A==",
+      "type": "package",
+      "path": "npoi/2.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/NPOI.OOXML.XML",
+        "lib/NPOI.XML",
+        "lib/net40/NPOI.OOXML.dll",
+        "lib/net40/NPOI.OpenXml4Net.dll",
+        "lib/net40/NPOI.OpenXmlFormats.dll",
+        "lib/net40/NPOI.dll",
+        "lib/net45/NPOI.OOXML.dll",
+        "lib/net45/NPOI.OpenXml4Net.dll",
+        "lib/net45/NPOI.OpenXmlFormats.dll",
+        "lib/net45/NPOI.dll",
+        "lib/netstandard2.0/NPOI.OOXML.dll",
+        "lib/netstandard2.0/NPOI.OpenXml4Net.dll",
+        "lib/netstandard2.0/NPOI.OpenXmlFormats.dll",
+        "lib/netstandard2.0/NPOI.dll",
+        "logo/120_120.jpg",
+        "logo/240_240.png",
+        "logo/32_32.jpg",
+        "logo/60_60.jpg",
+        "npoi.2.5.1.nupkg.sha512",
+        "npoi.nuspec"
+      ]
+    },
+    "Portable.BouncyCastle/1.8.6": {
+      "sha512": "y+GvZomzhY+Lwu5mMeNmFFYLHiEr2xFDOANhABn/wgg64/QpTzfgpNGPct+pXgQHjmutd363ZCur/91DLaBxOw==",
+      "type": "package",
+      "path": "portable.bouncycastle/1.8.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/BouncyCastle.Crypto.dll",
+        "lib/net40/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
+        "portable.bouncycastle.1.8.6.nupkg.sha512",
+        "portable.bouncycastle.nuspec"
+      ]
+    },
     "runtime.native.System/4.3.0": {
       "sha512": "c/qWt2LieNZIj1jGnVNsE2Kl23Ya2aSTBuXMD6V7k9KWr6l16Tqdwq+hJScEpWER9753NWC8h96PaVNY5Ld7Jw==",
       "type": "package",
@@ -3445,6 +3590,23 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "SharpZipLib/1.2.0": {
+      "sha512": "zvWa/L02JHNatdtjya6Swpudb2YEHaOLHL1eRrqpjm71iGRNUNONO5adUF/9CHbSJbzhELW1UoH4NGy7n7+3bQ==",
+      "type": "package",
+      "path": "sharpziplib/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ICSharpCode.SharpZipLib.dll",
+        "lib/net45/ICSharpCode.SharpZipLib.pdb",
+        "lib/net45/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
+        "sharpziplib.1.2.0.nupkg.sha512",
+        "sharpziplib.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -6754,21 +6916,38 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "BlazorApp.Client/1.0.0": {
+    "BlazorApp.Pwa.Client/1.0.0": {
       "type": "project",
-      "path": "../Client/BlazorApp.Client.csproj",
-      "msbuildProject": "../Client/BlazorApp.Client.csproj"
+      "path": "../Client/BlazorApp.Pwa.Client.csproj",
+      "msbuildProject": "../Client/BlazorApp.Pwa.Client.csproj"
     },
-    "BlazorApp.Shared/1.0.0": {
+    "BlazorApp.Pwa.Shared/1.0.0": {
       "type": "project",
-      "path": "../Shared/BlazorApp.Shared.csproj",
-      "msbuildProject": "../Shared/BlazorApp.Shared.csproj"
+      "path": "../Shared/BlazorApp.Pwa.Shared.csproj",
+      "msbuildProject": "../Shared/BlazorApp.Pwa.Shared.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "ExportToExcel/1.0.0": {
+      "type": "project",
+      "path": "../../../ExportToExcel/ExportToExcel.csproj",
+      "msbuildProject": "../../../ExportToExcel/ExportToExcel.csproj"
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "BlazorApp.Client >= 1.0.0",
-      "BlazorApp.Shared >= 1.0.0",
+      "BlazorApp.Pwa.Client >= 1.0.0",
+      "BlazorApp.Pwa.Shared >= 1.0.0",
+      "Domain >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.ApiAuthorization.IdentityServer >= 5.0.0-rc.2.20475.17",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.0-rc.2.20475.17",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.0-rc.2.20475.17",
@@ -6784,9 +6963,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Server\\BlazorApp.Server.csproj",
-      "projectName": "BlazorApp.Server",
-      "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Server\\BlazorApp.Server.csproj",
+      "projectUniqueName": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Server\\BlazorApp.Pwa.Server.csproj",
+      "projectName": "BlazorApp.Pwa.Server",
+      "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Server\\BlazorApp.Pwa.Server.csproj",
       "packagesPath": "C:\\Users\\Wayne\\.nuget\\packages\\",
       "outputPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Server\\obj\\",
       "projectStyle": "PackageReference",
@@ -6805,11 +6984,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Client\\BlazorApp.Client.csproj": {
-              "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Client\\BlazorApp.Client.csproj"
+            "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Client\\BlazorApp.Pwa.Client.csproj": {
+              "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Client\\BlazorApp.Pwa.Client.csproj"
             },
-            "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
-              "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Shared.csproj"
+            "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Domain\\Domain.csproj": {
+              "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Domain\\Domain.csproj"
+            },
+            "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Infrastructure\\Infrastructure.csproj"
+            },
+            "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj": {
+              "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj"
             }
           }
         }
