@@ -15,14 +15,16 @@ namespace BlazorApp.Pwa.Client
             builder.RootComponents.Add<App>("#app");
 
             builder.Services
-                .AddHttpClient("BlazorApp.Pwa.ServerAPI", client => client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress))
+                .AddHttpClient("ServerAPI", client => client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress))
                 .AddHttpMessageHandler<BaseAddressAuthorizationMessageHandler>();
 
             builder.Services
                 .AddScoped(sp => sp.GetRequiredService<IHttpClientFactory>()
-                .CreateClient("BlazorApp.Pwa.ServerAPI"));
+                .CreateClient("ServerAPI"));
 
             builder.Services.AddApiAuthorization();
+
+            
 
             await builder.Build().RunAsync();
         }

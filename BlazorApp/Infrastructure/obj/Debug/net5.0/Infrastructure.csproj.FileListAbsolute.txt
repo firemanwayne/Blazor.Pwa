@@ -51,18 +51,14 @@ H:\Projects\firemanwayne\Blazor\Server\Libraries\Infrastructure\obj\Debug\net5.0
 H:\Projects\firemanwayne\Blazor\Server\Libraries\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
 H:\Projects\firemanwayne\Blazor\Server\Libraries\Infrastructure\bin\Debug\net5.0\Shared.StaticWebAssets.xml
 H:\Projects\firemanwayne\Blazor\Server\Libraries\Infrastructure\bin\Debug\net5.0\Domain.StaticWebAssets.xml
-H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\Properties\launchSettings.json
-H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\BlazorApp.Pwa.Shared.StaticWebAssets.xml
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
-H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\BlazorApp.Pwa.Shared.dll
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\Domain.dll
-H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\ExportToExcel.dll
+H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\Shared.dll
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\Domain.pdb
-H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\BlazorApp.Pwa.Shared.pdb
-H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\ExportToExcel.pdb
+H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\Shared.pdb
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\obj\Debug\net5.0\Infrastructure.csprojAssemblyReference.cache
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
@@ -72,3 +68,6 @@ H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\obj\Debug\net5.0\In
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.json
+H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.dev.json
+H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Infrastructure\obj\Debug\net5.0\Infrastructure.genruntimeconfig.cache

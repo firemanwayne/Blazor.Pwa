@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Reflection;
 
-namespace BlazorApp.Pwa.Shared.Models.Concrete
+namespace Shared.Models.Concrete
 {
     public class ColorEntity
     {
@@ -17,13 +17,13 @@ namespace BlazorApp.Pwa.Shared.Models.Concrete
             HexValue = Color;
             RGBValue = Color;
             RGBAValue = (Color, DefaultOpacity);
-        }        
+        }
 
         [Display(Name = "Id")]
         public string Id { get; init; }
 
         [Display(Name = "Name")]
-        public string Name { get; init; }     
+        public string Name { get; init; }
 
         [Display(Name = "Color")]
         public Color Color { get; set; }
@@ -43,7 +43,7 @@ namespace BlazorApp.Pwa.Shared.Models.Concrete
         public static Dictionary<string, string> ColorDictionary { get => GetColorDictionary(); }
         public static RGBAColor ConvertToRGBA(Color c, decimal opacityValue) => new OpaqueColor(c, opacityValue);
         public static Color FindByName(string ColorName) => ColorCollection.FirstOrDefault(c => c.Name.ToUpper() == ColorName.ToUpper());
-        public static ColorEntity FindById(string ColorId) => Colors.FirstOrDefault(c => c.Id.Equals(ColorId));        
+        public static ColorEntity FindById(string ColorId) => Colors.FirstOrDefault(c => c.Id.Equals(ColorId));
 
         static IList<ColorEntity> GetColors()
         {
@@ -66,7 +66,7 @@ namespace BlazorApp.Pwa.Shared.Models.Concrete
         }
         static ICollection<Color> ColorCollection
             => typeof(Color).GetProperties(
-                BindingFlags.Static | 
+                BindingFlags.Static |
                 BindingFlags.DeclaredOnly |
                 BindingFlags.Public)
             .Select(c => (Color)c.GetValue(null, null))

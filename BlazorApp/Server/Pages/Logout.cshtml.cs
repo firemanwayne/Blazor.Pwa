@@ -11,19 +11,22 @@ namespace BlazorApp.Pwa.Server.Pages
     [AllowAnonymous]
     public class LogoutModel : PageModel
     {
-        private readonly SignInManager<User> SignInManager;
         private readonly ILogger<LogoutModel> Logger;
+        private readonly SignInManager<User> SignInManager;
 
         public LogoutModel(
             SignInManager<User> SignInManager,
             ILogger<LogoutModel> Logger)
         {
-            this.SignInManager = SignInManager;
             this.Logger = Logger;
+            this.SignInManager = SignInManager;
         }
 
-        public void OnGet()
+        public async Task OnGet(string returnUrl = null)
         {
+            await SignInManager.SignOutAsync();
+
+            Logger.LogInformation("User logged out.");
         }
 
         public async Task<IActionResult> OnPost(string returnUrl = null)
@@ -31,10 +34,10 @@ namespace BlazorApp.Pwa.Server.Pages
             await SignInManager.SignOutAsync();
             Logger.LogInformation("User logged out.");
 
-            if (returnUrl != null)            
-                return LocalRedirect(returnUrl);            
-            else            
-                return RedirectToPage();            
+            if (returnUrl != null)
+                return LocalRedirect(returnUrl);
+            else
+                return RedirectToPage();
         }
     }
 }

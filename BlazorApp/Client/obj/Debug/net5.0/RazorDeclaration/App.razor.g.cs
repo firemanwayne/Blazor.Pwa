@@ -70,21 +70,63 @@ using Microsoft.AspNetCore.Components.Authorization;
 #nullable disable
 #nullable restore
 #line 9 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
-using Microsoft.JSInterop;
+using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 11 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+using Microsoft.JSInterop;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
 using BlazorApp.Pwa.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
-using BlazorApp.Pwa.Client.Shared;
+#line 14 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+using BlazorApp.Pwa.Client.Pages;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+using BlazorApp.Pwa.Client.Pages.Authentication;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+using BlazorApp.Pwa.Client.Pages.Navigation;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 18 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+using Grpc.Net.Client;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 19 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+using Grpc.Net.Client.Web;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 20 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Client\_Imports.razor"
+using GrpcGreeter;
 
 #line default
 #line hidden

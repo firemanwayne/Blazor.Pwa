@@ -12,6 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using static Shared.Models.ViewModels.RegisterModel;
 
 namespace BlazorApp.Pwa.Server.Pages
 {
@@ -59,7 +60,7 @@ namespace BlazorApp.Pwa.Server.Pages
                     UserName = Input.Email,
                     Email = Input.Email,
                     FirstName = Input.FirstName,
-                    LastName = Input.LastName,                    
+                    LastName = Input.LastName,
                 };
 
                 var result = await UserManager.CreateAsync(user, Input.Password);
@@ -80,17 +81,17 @@ namespace BlazorApp.Pwa.Server.Pages
                     await EmailSender.SendEmailAsync(Input.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
-                    if (UserManager.Options.SignIn.RequireConfirmedAccount)                    
+                    if (UserManager.Options.SignIn.RequireConfirmedAccount)
                         return RedirectToPage("RegisterConfirmation", new { email = Input.Email, returnUrl = returnUrl });
-                    
+
                     else
                     {
                         await SignInManager.SignInAsync(user, isPersistent: false);
                         return LocalRedirect(returnUrl);
                     }
                 }
-                foreach (var error in result.Errors)                
-                    ModelState.AddModelError(string.Empty, error.Description);                
+                foreach (var error in result.Errors)
+                    ModelState.AddModelError(string.Empty, error.Description);
             }
             return Page();
         }

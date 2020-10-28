@@ -34,14 +34,14 @@ using BlazorApp.Pwa.Server.Pages;
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Server\Pages\_ViewImports.cshtml"
+#line 5 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Server\Pages\_ViewImports.cshtml"
 using Domain.IdentityManagement.UserAggregate;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"711c9c408724c63e83304049302db81850fc3ad3", @"/Pages/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0be2d82512d3eb78d9738c28cef5857a56dff97a", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f8eebb3fa1f6d0c0445e141339aaf742e9250e2d", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Error : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("href", new global::Microsoft.AspNetCore.Html.HtmlString("~/css/bootstrap/bootstrap.min.css"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

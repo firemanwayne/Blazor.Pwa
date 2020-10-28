@@ -1,9 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ox1gjxLve3PG05df44zucD6EpMn15nep4rmHFwt+ofrmU3cppCLS5blK17Of6tWapunfUWJ+fACRTitJcYB9Zg==",
+  "dgSpecHash": "L1Hz+dr55iDV6TLZ7LJDkeKxifMEdcA4bd5l+wj1K6HrpEuZgOIojTVD9DPy4lDGMNWenk9NfF8Rez/fWMs02A==",
   "success": true,
   "projectFilePath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Client\\BlazorApp.Pwa.Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Wayne\\.nuget\\packages\\google.protobuf\\3.13.0\\google.protobuf.3.13.0.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\grpc.core.api\\2.33.1\\grpc.core.api.2.33.1.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\grpc.net.client\\2.33.1-pre1\\grpc.net.client.2.33.1-pre1.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\grpc.net.client.web\\2.33.1-pre1\\grpc.net.client.web.2.33.1-pre1.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\grpc.net.clientfactory\\2.33.1-pre1\\grpc.net.clientfactory.2.33.1-pre1.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\grpc.net.common\\2.33.1-pre1\\grpc.net.common.2.33.1-pre1.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\grpc.tools\\2.33.1\\grpc.tools.2.33.1.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.0-rc.2.20475.17\\microsoft.aspnetcore.authorization.5.0.0-rc.2.20475.17.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.0-rc.2.20475.17\\microsoft.aspnetcore.components.5.0.0-rc.2.20475.17.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.0-rc.2.20475.17\\microsoft.aspnetcore.components.analyzers.5.0.0-rc.2.20475.17.nupkg.sha512",
@@ -31,8 +38,11 @@
     "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0-rc.2.20475.5\\microsoft.extensions.primitives.5.0.0-rc.2.20475.5.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.jsinterop\\5.0.0-rc.2.20475.17\\microsoft.jsinterop.5.0.0-rc.2.20475.17.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.0-rc.2.20475.17\\microsoft.jsinterop.webassembly.5.0.0-rc.2.20475.17.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\system.io.pipelines\\5.0.0-rc.2.20475.5\\system.io.pipelines.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\system.net.http.json\\5.0.0-rc.2.20475.5\\system.net.http.json.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Wayne\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\Wayne\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.0-rc.2.20475.5\\microsoft.netcore.app.runtime.browser-wasm.5.0.0-rc.2.20475.5.nupkg.sha512"
   ],
   "logs": []

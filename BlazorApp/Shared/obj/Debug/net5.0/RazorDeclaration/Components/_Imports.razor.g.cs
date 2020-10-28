@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BlazorApp.Pwa.Shared.Components
+namespace Shared.Components
 {
     #line hidden
     using System;

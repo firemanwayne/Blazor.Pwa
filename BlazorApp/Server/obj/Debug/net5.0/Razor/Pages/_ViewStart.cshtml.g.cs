@@ -34,14 +34,14 @@ using BlazorApp.Pwa.Server.Pages;
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Server\Pages\_ViewImports.cshtml"
+#line 5 "H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Server\Pages\_ViewImports.cshtml"
 using Domain.IdentityManagement.UserAggregate;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0ea4e2edd7aef7d88ddb6bb3ad20bfc24d25a542", @"/Pages/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0be2d82512d3eb78d9738c28cef5857a56dff97a", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f8eebb3fa1f6d0c0445e141339aaf742e9250e2d", @"/Pages/_ViewImports.cshtml")]
     public class Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

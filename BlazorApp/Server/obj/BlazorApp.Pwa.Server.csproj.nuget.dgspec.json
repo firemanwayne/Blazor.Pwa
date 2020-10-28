@@ -116,8 +116,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj": {
-                "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj"
+              "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj": {
+                "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj"
               },
               "H:\\Projects\\firemanwayne\\ExportToExcel\\ExportToExcel.csproj": {
                 "projectPath": "H:\\Projects\\firemanwayne\\ExportToExcel\\ExportToExcel.csproj"
@@ -189,8 +189,8 @@
               "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Domain\\Domain.csproj": {
                 "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Domain\\Domain.csproj"
               },
-              "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj": {
-                "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj"
+              "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj": {
+                "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj"
               }
             }
           }
@@ -265,8 +265,8 @@
               "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Infrastructure\\Infrastructure.csproj"
               },
-              "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj": {
-                "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj"
+              "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj": {
+                "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj"
               }
             }
           }
@@ -332,12 +332,12 @@
         }
       }
     },
-    "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj": {
+    "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj",
-        "projectName": "BlazorApp.Pwa.Shared",
-        "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj",
+        "projectUniqueName": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\Wayne\\.nuget\\packages\\",
         "outputPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\obj\\",
         "projectStyle": "PackageReference",

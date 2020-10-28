@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
-namespace BlazorApp.Pwa.Shared.Models.Concrete
+namespace Shared.Models.Concrete
 {
     public class PropertyWrapper
     {

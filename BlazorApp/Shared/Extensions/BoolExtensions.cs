@@ -1,4 +1,4 @@
-﻿namespace BlazorApp.Pwa.Shared.Exceptions
+﻿namespace Shared.Exceptions
 {
     public static class BoolExtensions
     {

@@ -27,14 +27,7 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {
-              "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj": {
-                "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj"
-              },
-              "H:\\Projects\\firemanwayne\\ExportToExcel\\ExportToExcel.csproj": {
-                "projectPath": "H:\\Projects\\firemanwayne\\ExportToExcel\\ExportToExcel.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -47,9 +40,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "System.Linq": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[4.3.0, )"
+              "version": "[5.0.0-rc.2.20475.17, )"
             }
           },
           "imports": [
@@ -63,9 +56,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -101,8 +91,8 @@
               "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Domain\\Domain.csproj": {
                 "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Domain\\Domain.csproj"
               },
-              "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj": {
-                "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj"
+              "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj": {
+                "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj"
               }
             }
           }
@@ -118,69 +108,6 @@
           "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
-              "target": "Package",
-              "version": "[3.1.9, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj",
-        "projectName": "BlazorApp.Pwa.Shared",
-        "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\BlazorApp.Pwa.Shared.csproj",
-        "packagesPath": "C:\\Users\\Wayne\\.nuget\\packages\\",
-        "outputPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Wayne\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[5.0.0-rc.2.20475.17, )"
             },
@@ -227,14 +154,14 @@
         }
       }
     },
-    "H:\\Projects\\firemanwayne\\ExportToExcel\\ExportToExcel.csproj": {
+    "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Projects\\firemanwayne\\ExportToExcel\\ExportToExcel.csproj",
-        "projectName": "ExportToExcel",
-        "projectPath": "H:\\Projects\\firemanwayne\\ExportToExcel\\ExportToExcel.csproj",
+        "projectUniqueName": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\Wayne\\.nuget\\packages\\",
-        "outputPath": "H:\\Projects\\firemanwayne\\ExportToExcel\\obj\\",
+        "outputPath": "H:\\Projects\\firemanwayne\\Blazor.Pwa\\BlazorApp\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wayne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -263,23 +190,15 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Components.WebAssembly": {
+            "Google.Protobuf": {
               "target": "Package",
-              "version": "[5.0.0-rc.2.20475.17, )"
+              "version": "[3.13.0, )"
             },
-            "Microsoft.Extensions.DependencyInjection.Abstractions": {
-              "target": "Package",
-              "version": "[5.0.0-rc.2.20475.5, )"
-            },
-            "Microsoft.TypeScript.MSBuild": {
+            "Grpc.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[4.1.0-beta, )"
-            },
-            "NPOI": {
-              "target": "Package",
-              "version": "[2.5.1, )"
+              "version": "[2.33.1, )"
             }
           },
           "imports": [

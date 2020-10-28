@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace BlazorApp.Pwa.Shared.Models.Concrete
+namespace Shared.Models.Concrete
 {
     public class RGBAColor
     {
@@ -58,5 +58,5 @@ namespace BlazorApp.Pwa.Shared.Models.Concrete
         public static implicit operator RGBAColor(OpaqueColor c) => new RGBAColor(c);
 
         public static implicit operator RGBAColor((Color c, int o) v) => new RGBAColor(v.c, v.o);
-    }    
+    }
 }

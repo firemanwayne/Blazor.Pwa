@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace BlazorApp.Pwa.Shared.Models.Concrete
+namespace Shared.Models.Concrete
 {
     public class OpaqueColor
     {

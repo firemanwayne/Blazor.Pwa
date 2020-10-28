@@ -1,0 +1,75 @@
+﻿
+@code {
+    [Parameter] public string Name { get; set; } = "Placeholder";
+
+    [Parameter] public string ModuleColor { get; set; } = "#217AA2";
+
+    [Parameter] public string LogoName { get; set; } = "error";
+
+    [Parameter] public bool IsLocked { get; set; } = false;
+
+    [Parameter] public string HrefLink { get; set; }
+
+    [Parameter] public IList<BarListItem> NavListItems { get; set; } = new List<BarListItem>();
+
+    bool isUp;
+    string CurrentArrowDirection;
+
+    bool HasChildNavItems { get => NavListItems.Count > 0; }
+
+    string ParentHref { get => HasChildNavItems ? "javascript:void(0)" : HrefLink; }
+
+    const string ArrowUp = "keyboard_arrow_up";
+    const string ArrowDown = "keyboard_arrow_down";
+
+    bool IsUp
+    {
+        get => isUp;
+        set
+        {
+            isUp = value;
+            CurrentArrowDirection = value ? ArrowUp : ArrowDown;
+        }
+    }    
+
+    void ArrowClicked()
+    {
+        if (IsUp)
+            IsUp = false;
+        else
+            IsUp = true;
+    }
+}
+
+<li>
+    @if (HasChildNavItems)
+    {
+        <a href="@ParentHref" style="color: #aec4cd" aria-expanded="false" @onclick="ArrowClicked">
+            <span class="material-icons">@LogoName</span>
+            @Name
+
+            <span class="material-icons menu-icon menu-arrow">
+                @CurrentArrowDirection
+            </span>
+        </a>
+
+        @if (IsUp)
+        {
+            <ul class="sidebar-item list-unstyled">
+                @foreach (var navItem in NavListItems)
+                {
+                    <li>
+                        <a href="@navItem.Href" style="color: #aec4cd;">@navItem.Name</a>
+                    </li>
+                }
+            </ul>
+        }
+    }
+    else
+    {
+        <a href="@ParentHref">
+            <span class="material-icons">@LogoName</span>
+            @Name
+        </a>        
+    }
+</li>

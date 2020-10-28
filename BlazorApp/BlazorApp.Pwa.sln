@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30615.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Pwa.Server", "Server\BlazorApp.Pwa.Server.csproj", "{174D5A01-3F67-442F-94D5-C12D8A430FC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{174D5A01-3F67-442F-94D5-C12D8A430FC7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Pwa.Client", "Client\BlazorApp.Pwa.Client.csproj", "{49AEC2D9-D79B-4582-9146-7CE9DB25863D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp.Pwa.Shared", "Shared\BlazorApp.Pwa.Shared.csproj", "{85BC5788-DD51-4EDF-890A-D4BF9D438BF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{85BC5788-DD51-4EDF-890A-D4BF9D438BF2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{B7335AF6-8DCF-46E2-83BE-167D756050DD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExportToExcel", "..\..\ExportToExcel\ExportToExcel.csproj", "{2939439D-976C-41D5-ADB1-8AA73817CBBA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{AD464696-D7A3-4C11-B16F-1CB7432983C1}"
 EndProject
@@ -37,10 +35,6 @@ Global
 		{B7335AF6-8DCF-46E2-83BE-167D756050DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7335AF6-8DCF-46E2-83BE-167D756050DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7335AF6-8DCF-46E2-83BE-167D756050DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2939439D-976C-41D5-ADB1-8AA73817CBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2939439D-976C-41D5-ADB1-8AA73817CBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2939439D-976C-41D5-ADB1-8AA73817CBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2939439D-976C-41D5-ADB1-8AA73817CBBA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD464696-D7A3-4C11-B16F-1CB7432983C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD464696-D7A3-4C11-B16F-1CB7432983C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD464696-D7A3-4C11-B16F-1CB7432983C1}.Release|Any CPU.ActiveCfg = Release|Any CPU

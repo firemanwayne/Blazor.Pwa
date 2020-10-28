@@ -1,9 +1,7 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Reflection;
 
-namespace BlazorApp.Pwa.Shared.Extensions
+namespace System.Reflection
 {
     public static class DisplayAttributeParser
     {

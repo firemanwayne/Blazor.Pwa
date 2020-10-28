@@ -21,6 +21,6 @@ namespace Domain.IdentityManagement.UserAggregate
         public string FirstName { get; set; }
 
         [Column(nameof(LastName))]
-        public string LastName { get; set; }        
+        public string LastName { get; set; }
     }
 }

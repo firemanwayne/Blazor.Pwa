@@ -5,12 +5,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="System.Linq" Version="4.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0-rc.2.20475.17" />
 	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\..\..\ExportToExcel\ExportToExcel.csproj" />
-	  <ProjectReference Include="..\Shared\BlazorApp.Pwa.Shared.csproj" />
-	</ItemGroup>	
 
 </Project>

@@ -52,7 +52,6 @@ C:\Users\Wayne\source\repos\BlazorApp.Pwa\Server\obj\Debug\net5.0\BlazorApp.Pwa.
 C:\Users\Wayne\source\repos\BlazorApp.Pwa\Server\obj\Debug\net5.0\BlazorApp.Pwa.Server.genruntimeconfig.cache
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Server\bin\Debug\net5.0\BlazorApp.Pwa.Client.StaticWebAssets.xml
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Server\bin\Debug\net5.0\Properties\launchSettings.json
-H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Server\bin\Debug\net5.0\BlazorApp.Pwa.Shared.StaticWebAssets.xml
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Server\bin\Debug\net5.0\appsettings.Development.json
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Server\bin\Debug\net5.0\appsettings.json
 H:\Projects\firemanwayne\Blazor.Pwa\BlazorApp\Server\bin\Debug\net5.0\BlazorDebugProxy\BrowserDebugHost.dll

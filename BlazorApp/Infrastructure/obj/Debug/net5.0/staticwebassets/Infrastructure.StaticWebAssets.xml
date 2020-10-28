@@ -1,5 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/Identity" Path="C:\Users\Wayne\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.0-rc.2.20475.17\staticwebassets\V4\" />
-  <ContentRoot BasePath="_content/ExportToExcel" Path="H:\Projects\firemanwayne\ExportToExcel\wwwroot\" />
-  <ContentRoot BasePath="_content/Shared" Path="H:\Projects\firemanwayne\Blazor\Server\Libraries\Shared\wwwroot\" />
-</StaticWebAssets>
